@@ -1,19 +1,22 @@
-# Quantitative Finance: Options Greeks Monitor
+# Quantitative Financial Intelligence Engine
 
-This repository contains a professional-grade tool for pricing and analyzing the sensitivity of **European Options** using the Black-Scholes model.
-
-## Overview
-As an Investment Strategist, I developed this module to visualize how derivative exposures (Greeks) behave under different market conditions. This tool is essential for **Dynamic Hedging** and risk management of complex portfolios.
+This repository hosts a suite of Python-based tools designed for advanced financial analysis, equity research, and automated valuation workflows across EMEA and LatAm markets.
 
 ## Key Features
-- **Theoretical Pricing:** Call option pricing based on Black-Scholes.
-- **Greeks Calculation:** Real-time computation of **Delta** and **Gamma**.
-- **Visual Analytics:** Matplotlib integration to plot sensitivity curves.
+* **Automated Data Ingestion:** Multi-source financial data extraction using high-frequency APIs.
+* **Corporate Performance Dashboard:** Visual representation of Revenue, EBIT, and Cash Flow trends with institutional-grade aesthetics.
+* **Regional Flexibility:** Agnostic engine capable of processing tickers from B3 (Brazil), SIX (Switzerland), NYSE (USA), and LSE (UK).
+* **Clean Data Architecture:** Automated handling of timestamps, currency scaling, and financial statement transposition.
 
 ## Tech Stack
-- **Python 3.x**
-- **NumPy & SciPy:** For high-performance numerical computing.
-- **Matplotlib:** For financial data visualization.
+* **Language:** Python 3.x
+* **Core Libraries:** Pandas (Data Wrangling), Matplotlib (Visualization), YFinance (Market Data).
+* **Environment:** Google Colab / Jupyter Notebooks.
 
-## Example Output
-The script generates a dual-axis chart showing the relationship between the Underlying Price, Delta (exposure), and Gamma (acceleration).
+## Strategic Roadmap (In Development)
+- [ ] **WACC Engine:** Automated CAPM-based Cost of Capital calculation.
+- [ ] **Intrinsic Value Calculator:** Multi-scenario Discounted Cash Flow (DCF) models.
+- [ ] **FX Normalization:** Automatic conversion of financial statements to base currencies (USD/EUR/CHF).
+
+---
+**Contact:** Eduardo Daminato - (https://www.linkedin.com/in/panachedu/) - eduardo@mollitiamalpha.com
