@@ -39,17 +39,19 @@ Advanced options analytics tool for Greeks calculation and implied volatility su
 # **Installation**
 
 0. **Download: (greeknvol_monitor.py & requirements-greeknvol_monitor.py)**
-
-1. **Install dependencies**
 ```bash
 Windorws + R = CMD
+```
+2. **Install dependencies**
+```bash
 pip install -r requirements-greeknvol_monitor.txt
 ```
 2. **Run the application**
 ```bash
 python greeknvol_monitor.py
-
 ```
+
+---
 
 # **Use Cases**
 
